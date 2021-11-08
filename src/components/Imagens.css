@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-Img {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 300px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+img {
+    width: 300px;
+}
+
+.area-Text {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+    padding: 10px;
+    background-color: #CCC;
+}
+button[type="button"] {
+    background-color: transparent;
+    border: none;
+    font-size: 1.3em;
+    color: #479be9;
+}

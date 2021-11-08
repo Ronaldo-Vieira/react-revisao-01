@@ -1,0 +1,23 @@
+#geral {
+    height: 100%;
+}
+.areaText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    color: #fff;
+    background-color: rgb(138, 136, 136);
+}
+.areaText h4 {
+    color: #CCC;
+}
+#area-Img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+    background-color: #000;
+}
